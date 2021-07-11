@@ -1,0 +1,68 @@
+const carList = [
+  {
+    id: 1,
+    model: "Audi A7",
+    img: "/images/audi-a7.jpg",
+    year: 2020,
+    price: "84.000-114.000",
+    desc: "The Audi A7 is an executive car produced by Audi since 2010. A five-door liftback (also available as a three-box, four-door sedan in China since 2021), it features a sloping roofline with a steeply raked rear window and integrated boot lid (forming the so-called Sportback), and four frameless doors.",
+  },
+  {
+    id: 2,
+    model: "Audi A8",
+    img: "/images/audi-a8.jpg",
+    year: 2021,
+    price: "86.000-130.000",
+    desc: "The 2021 Audi A8 ranks in the middle of the super luxury car class. It features one of the most exquisite cabins in the class, as well as a comfortable ride, but it doesn't match the athleticism of some top rivals, and its trunk is tiny for the class.The Audi A8 is a four-door, full-size, luxury sedan manufactured and marketed by the German automaker Audi since 1994.",
+  },
+  {
+    id: 3,
+    model: "BMW 5",
+    img: "/images/bmw5.jpg",
+    year: 2017,
+    price: "54.000-70.000",
+    desc: "The BMW 5 Series is an executive car manufactured by BMW since 1972. It is the successor to the New Class Sedans and is currently in its seventh generation.",
+  },
+  {
+    id: 4,
+    model: "BMW 7",
+    img: "/images/bmw7.jpg",
+    year: 2021,
+    price: "86.000-157.000",
+    desc: "The BMW 7 Series is a full-size luxury sedan produced by the German automaker BMW since 1977. It is the successor to the BMW E3 New Six sedan and is currently in its sixth generation.The 7 Series is BMW's flagship car and is only available in a sedan bodystyle (including long wheelbase and limousine models). It traditionally introduces technologies and exterior design themes before they trickle down to other models in BMW's lineup.",
+  },
+  {
+    id: 5,
+    model: "Mercedes E-Class",
+    img: "/images/mercedes-e-class.jpg",
+    year: 2016,
+    price: "64.000-70.000",
+    desc: "The Mercedes-Benz E-Class is a range of executive cars manufactured by German automaker Mercedes-Benz in various engine and body configurations. Produced since 1953, the E-Class falls midrange in the Mercedes line-up, and has been marketed worldwide across five generations.",
+  },
+  {
+    id: 6,
+    model: "Mercedes S-Class",
+    img: "/images/mercedes-s-class.jpg",
+    year: 2021,
+    price: "94.000-138.000",
+    desc: "The Mercedes-Benz S-Class, formerly known as Sonderklasse (German for special class, abbreviated as S-Klasse), is a series of full-size luxury sedans, limousines and armored sedans produced by the German automaker Mercedes-Benz, a division of German company Daimler AG. The S-Class is the designation for top-of-the-line Mercedes-Benz models and was officially introduced in 1972 with the W116, and has remained in use ever since. The S-Class is the flagship vehicle for Mercedes-Benz.",
+  },
+  {
+    id: 7,
+    model: "Renault Talisman",
+    img: "/images/renault-talisman.jpg",
+    year: 2020,
+    price: "34.600",
+    desc: "The Renault Talisman is a large family car manufactured by the French car manufacturer Renault since 2015. The name talisman means a magical object providing protection against ill will, or the supernatural, or conferring the wearer with a boon such as good luck, good health, or powers.",
+  },
+  {
+    id: 8,
+    model: "Volkswagen Arteon",
+    img: "/images/vw-arteon.jpg",
+    year: 2017,
+    price: "36.000-46.000",
+    desc: "Launched in Europe during 2017, the Arteon is positioned above the Passat, and was heavily based on the 2015 Volkswagen Arteon concept car shown at the Geneva International Motor Show. The Arteon made its debut for the United States at the 2018 Chicago Auto Show. Volkswagen delayed the launch in the United States of the Arteon due to unspecified issues with the emissions testing. Vehicles started arriving at dealerships in the US in April 2019. It became available in the Canadian market in spring of 2019",
+  },
+];
+
+module.exports = carList;

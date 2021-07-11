@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cars</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <%- include("partials/navbar.ejs") %>
+    <section class="section-main">
+      <% carList.forEach(car => { %>
+      <!-- single car -->
+      <div class="wrapper">
+        <img src="<%= car.img %>" alt="car" class="car-img" />
+        <h3><%= car.model %></h3>
+        <a href="<%= `/car/${car.id}` %>" class="car-link">
+          view more details</a
+        >
+      </div>
+      <!--  -->
+      <% }) %>
+    </section>
+  </body>
+</html>

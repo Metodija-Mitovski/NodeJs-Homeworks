@@ -1,0 +1,114 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin-bottom: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 3rem;
+  background-color: #00b7ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.home-link {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+h1 {
+  color: #fff;
+}
+
+.section-main {
+  width: 100%;
+  height: calc(100vh - 3rem);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 5px;
+  border: 1px solid #00b7ff;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.car-img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.car-link {
+  color: #929191;
+  font-size: 12px;
+  text-decoration: none;
+  padding-left: 5px;
+}
+
+h3 {
+  padding: 8px 5px;
+  color: #4b4b4b;
+}
+
+/* -------- */
+
+.car-section-main {
+  width: 100%;
+  height: calc(100vh - 3rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.car-wrapper {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-car-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  white-space: wrap;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  margin: 5px 0 8px 5px;
+}
+
+.aditional-data {
+  line-height: 1.5;
+  color: #696969;
+  padding-left: 5px;
+}

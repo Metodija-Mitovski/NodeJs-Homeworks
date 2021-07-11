@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <%- include("partials/navbar.ejs") %>
+    <section class="car-section-main">
+      <div class="car-wrapper">
+        <img src=" <%= car.img %> " alt="car" class="single-car-img" />
+        <div class="info-wrapper">
+          <span
+            >model:
+            <h3><%= car.model %></h3></span
+          >
+          <span
+            >year:
+            <h3><%= car.year %></h3></span
+          >
+          <span
+            >price:
+            <h3>$<%= car.price %></h3></span
+          >
+        </div>
+
+        <p class="aditional-data"><%= car.desc %></p>
+      </div>
+    </section>
+  </body>
+</html>
